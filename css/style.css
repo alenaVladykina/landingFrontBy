@@ -72,8 +72,9 @@ p {
     font-size: 30px;
     padding: 30px 0 30px 0;
 }
+
 .menuOpen li:hover {
-   opacity: 0.7;
+    opacity: 0.7;
 }
 
 .menuOpen li a {
@@ -142,9 +143,6 @@ p {
     margin: 30px auto 50px auto;
 }
 
-/*.logo {*/
-/*    margin-left: 9%;*/
-/*}*/
 
 .burger {
     width: 30px;
@@ -496,6 +494,14 @@ p {
 
     .menu__link:hover {
         opacity: 0.1;
+    }
+
+    .closeIcon {
+        display: none;
+    }
+
+    .burgerIcon {
+        display: none;
     }
 
     .input {
@@ -877,6 +883,14 @@ p {
 
     .nav {
         font-size: calc(15px + 5 * (100vw - 980px) / 2000);
+    }
+
+    .closeIcon {
+        display: none;
+    }
+
+    .burgerIcon {
+        display: none;
     }
 
     .subtitle {
