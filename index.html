@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Frontbyte</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic"
+          rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <picture>
+                <source srcset="img/desctop/img_logo_desktop_light.svg" media="(min-width:768px)"/>
+                <img src="img/mobile/img-logo-mobile-light.png" alt="logotype"/>
+            </picture>
+        </div>
+        <div class="burgerIcon" id="burgerIcon"></div>
+        <ul class="menu" id="menu">
+            <div class="closeIcon" id="closeIcon"></div>
+            <li class="menu__item"><a href="#" target="_self" class="menu__link">About</a></li>
+            <li class="menu__item"><a href="#title--professional" target="_self" class="menu__link">Projects</a>
+            </li>
+            <li class="menu__item"><a href="#subtitle--work" target="_self" class="menu__link">Services</a></li>
+            <li class="menu__item"><a href="#our--team" target="_self" class="menu__link">
+                Our team</a></li>
+            <li class="menu__item"><a href="#title--footer" target="_self" class="menu__link">Contacts</a></li>
+        </ul>
+        <div class="input">
+            <input type="radio" name="radio" value="input" id="no">
+            <label for="no" class="js-label">No</label>
+            <input type="radio" value="enu" id="en" name="radio" checked>
+            <label for="en" class="js-label">En</label>
+            <input type="radio" value="ruu" id="ru" name="radio">
+            <label for="ru" class="js-label">Ru</label>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="title title--header" id="#title--header">
+            We provide digital services and develop our own products in sports and
+            iHealth industry
+        </h1>
+        <p class="subtitle subtitle--header">
+            We put technology and sport together to create the world's most
+            efficient and popular sports apps.
+        </p>
+        <div class="link">
+            <div class="link__wrapper">
+                <a class="link__text" href="#"> Drop us a line</a>
+                <img class="link__img" src="img/mobile/ic_next.svg" alt="image"/>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <!-- section  -->
+    <section class="professional">
+        <div class="container">
+            <header>
+                <h2 class="title" id="title--professional">
+                    We combine high level of professionalism and individual approach
+                </h2>
+                <p class="subtitle subtitle--professional">
+                    We have subject domain expertise in various aspects
+                </p>
+            </header>
+            <div class="inside">
+                <div class="card">
+                    <div class="card__img card__img--project">
+                        <img src="img/tablet/ic_project.svg" alt="images">
+                    </div>
+                    <p class="card__text">
+                        Project management for simple and complex projects
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card__img card__img--hire">
+                        <img src="img/tablet/ic_hire.svg" alt="icon"/>
+                    </div>
+                    <p class="card__text">Management for hire</p>
+                </div>
+                <div class="card card--some">
+                    <div class="card__img card__img--digital">
+                        <img src="img/tablet/ic_digital.svg" alt="icon"/>
+                    </div>
+                    <div class="card__text">
+                        <p class="card__text">Digital transformation</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="title title--professional">
+                What We Do
+            </h3>
+            <ul class="list">
+                <li class="list__item list__item--some">
+                    Development and support of new and existing software systems
+                </li>
+                <li class="list__item ">Deep analytics in various spheres</li>
+                <li class="list__item ">Insights-driven solutions</li>
+                <li class="list__item">Agile product engineering</li>
+                <li class="list__item list__item--some">
+                    Quality Assurance for new and existing products
+                </li>
+                <li class="list__item list__item--some">Data collection, research and analysis</li>
+                <li class="list__item">UX/UI concepts and design</li>
+                <li class="list__item">Video and motion design</li>
+            </ul>
+        </div>
+        <div class=" link link--full ">
+            <div class="container">
+                <div class="link__wrapper">
+                    <a class="link__text" href="#"> Services</a>
+                    <img class="link__img link__img--services" src="img/mobile/ic_next.svg" alt="img"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section work -->
+    <section class="work">
+        <header class="wrap wrap--title">
+            <div class="container">
+                <h2 class="title title--work" id="subtitle--work">Our Work</h2>
+                <p class="subtitle subtitle--work">
+                    We change the way businesses and industries operate.
+                </p>
+            </div>
+        </header>
+        <div class="box box--header">
+            <img class="box__img box__img--after" src="img/mobile/img_birdieeyes@2x.jpg" alt="images"/>
+            <img class="box__img box__img--before" src="img/mobile/vid_birdieeyes.png" alt="images"/>
+
+            <div class="box__text box__text--header">
+                <p class="box__title box__title--header">Birdieeyes</p>
+                <p class="subtitle subtitle--box">
+                    We have introduced AR technology into one of the most traditional
+                    games and made it even more interesting
+                </p>
+            </div>
+        </div>
+        <div class="wrap--box wrap">
+            <div class="box box__flex">
+                <picture>
+                    <source srcset="img/mobile/img_sport--tablet.png" media="(min-width:768px)"/>
+                    <img class="box__img" src="img/mobile/img_sport--tablet@2x.png" alt="images"/>
+                </picture>
+                <div class="box__text">
+                    <p class="box__title ">UpSport</p>
+                    <p class="subtitle subtitle--box">
+                        Live communication platform that has changed the game for sport clubs, parents and their kids
+                    </p>
+                </div>
+            </div>
+            <div class="box box__flex">
+                <picture>
+                    <source srcset="img/mobile/img_xland.png" media="(min-width:768px)"/>
+                    <img class="box__img" src="img/mobile/img_xland@2x.jpg" alt="image"/>
+                </picture>
+                <div class="box__text">
+                    <p class="box__title">Xland</p>
+                    <p class="subtitle subtitle--box">
+                        Digital presence for the first indoor activity park in Norway
+                    </p>
+                </div>
+            </div>
+            <div class="box box__flex box--hidden">
+                <img class="box__img" src="img/mobile/img_phonero.png" alt="images"/>
+                <div class="box__text">
+                    <p class="box__title">phonero</p>
+                    <p class="subtitle subtitle--box">
+                        Interfaces for the cloud based switchboard applications as well as various desktop and mobile
+                        applications
+                    </p>
+                </div>
+            </div>
+            <div class="box box__flex box--hidden">
+                <img class="box__img" src="img/mobile/img_kongsberg.png" alt="image"/>
+                <div class="box__text">
+                    <p class="box__title">Kongsberg Group</p>
+                    <p class="subtitle subtitle--box">
+                        Groundbreaking defence and aerospace systems
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="link link--full">
+            <div class="container">
+                <div class="link__wrapper">
+                    <a class="link__text" href="#" target="_self">All Projects</a>
+                    <img class="link__img link__img--services" src="img/mobile/ic_next.svg" alt="images"/>
+                </div>
+            </div>
+        </div>
+        <div id="our--team"
+             class="box box__footer">
+            <picture>
+                <source class="source" srcset="img/mobile/img_team_home.jpg"/>
+                <img class="box__img box__img--footer" src="img/mobile/img_team_home.jpg" alt="images"/>
+            </picture>
+            <div class="box__text  box__text--footer">
+                <p class="box__title box__title--footer">our team</p>
+                <p class="subtitle subtitle--box">
+                    We are united by our passion to create unique and efficient
+                    digital products
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- section footer -->
+<footer class="footer">
+    <div class="container">
+        <h2 class="title title--footer" id="title--footer">Contacts</h2>
+        <p class="subtitle subtitle--footer">Our head office is located in Norway. Research and <span
+                class="subtitle--before">dev</span><span class="subtitle--after">development</span>
+            center is located
+            in Belarus.</p>
+        <div class="social">
+            <div class="social__link">
+                <a href="#" target="_self" class="icons"><img src="img/mobile/ic_linkedin_white.svg" alt="link in"></a>
+            </div>
+            <div class="social__face">
+                <a href="#" target="_self" class="icons"><img src="img/mobile/ic_facebook_white.svg"
+                                                              alt="link facebook"></a>
+            </div>
+            <div class="social__inst">
+                <a href="#" target="_self" class="icons"><img src="img/mobile/ic_instagram_white.svg"
+                                                              alt="link instagram"></a>
+            </div>
+        </div>
+        <div class="wrapper wrapper--footer">
+            <div class="address">
+                <h3 class="address__title">Norway</h3>
+                <p class="address__subtitle">Kristiansand <br>
+                    Vestre strandgate, 23, 4th and
+                    6th floor N-4611<br>
+                    <a class="address__mail" href="#">contact@frontbyte.no</a><br>
+            </div>
+            <div class="address address--some">
+                <h3 class="address__title">Belarus</h3>
+                <p class="address__subtitle">Minsk<br>
+                    Dombrovskaya str., 9, оffice 10.2.2<br>
+                    <a class="address__mail" href="#">contact@frontbyte.by</a><br>
+                    +375 29 1393336</p>
+            </div>
+        </div>
+    </div>
+    <div class="link link--some">
+        <div class="link__wrapper">
+            <a class="link__text" href="#"> Drop us a line</a>
+            <img class="link__img" src="img/mobile/ic_next.svg" alt="images"/>
+        </div>
+    </div>
+    <div class="link link--full">
+        <div class="container">
+            <div class="link__wrapper">
+                <a class="link__text" href="#">Drop us a line</a>
+                <img class="link__img link__img--services" src="img/mobile/ic_next.svg" alt="images"/>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav--footer">
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">About</a></li>
+        <li class="nav__item nav__item--footer"><a href="#title--professional" target="_self"
+                                                   class="nav__link nav__item nav__link--footer">Projects</a>
+        </li>
+        <li class="nav__item nav__item--footer"><a href="#subtitle--work"
+                                                   class="nav__link nav__link--footer">Services</a></li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Our team</a>
+        </li>
+        <li class="nav__item nav__item nav__item--some "><a href="#title--footer"
+                                                            class="nav__link nav__link--footer nav__link--some">Contacts</a>
+        </li>
+    </ul>
+    <a class="link--footer">© 2008–2018 Frontbyte</a>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>512D49EA-C8AE-47BC-9335-A5F91CD10046</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M28.0710678,16 L-5.68434189e-14,16 L-5.68434189e-14,15 L28.2928932,15 L22,8.70710678 L22.7071068,8 L29.7781746,15.0710678 L29.4601551,15.3890873 L29.7781746,15.7071068 L22.7071068,22.7781746 L22,22.0710678 L28.0710678,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/NEXT">
+            <mask id="mask-2" fill="#f4f4f7">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#f4f4f7" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="COLOR/DARK" mask="url(#mask-2)" fill="#2D2D42">
+                <g transform="translate(-250.000000, -240.000000)" id="Rectangle">
+                    <rect fill-rule="nonzero" x="0" y="0" width="30" height="30"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
