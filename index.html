@@ -17,10 +17,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <picture>
-                <source srcset="img/desctop/img_logo_desktop_light.svg" media="(min-width:768px)"/>
-                <img src="img/mobile/img-logo-mobile-light.png" alt="logotype"/>
-            </picture>
+            <img src="img/icons/logotype.svg" alt="logotype"/>
         </div>
         <div class="burgerIcon" id="burgerIcon"></div>
         <ul class="menu" id="menu">
@@ -54,7 +51,7 @@
         <div class="link">
             <div class="link__wrapper">
                 <a class="link__text" href="#"> Drop us a line</a>
-                <img class="link__img" src="img/mobile/ic_next.svg" alt="image"/>
+                <img class="link__img" src="img/icons/ic_next.svg" alt="image"/>
             </div>
         </div>
     </div>
@@ -74,7 +71,7 @@
             <div class="inside">
                 <div class="card">
                     <div class="card__img card__img--project">
-                        <img src="img/tablet/ic_project.svg" alt="images">
+                        <img src="img/icons/ic_project.svg" alt="images">
                     </div>
                     <p class="card__text">
                         Project management for simple and complex projects
@@ -82,13 +79,13 @@
                 </div>
                 <div class="card">
                     <div class="card__img card__img--hire">
-                        <img src="img/tablet/ic_hire.svg" alt="icon"/>
+                        <img src="img/icons/ic_hire.svg" alt="icon"/>
                     </div>
                     <p class="card__text">Management for hire</p>
                 </div>
                 <div class="card card--some">
                     <div class="card__img card__img--digital">
-                        <img src="img/tablet/ic_digital.svg" alt="icon"/>
+                        <img src="img/icons/ic_digital.svg" alt="icon"/>
                     </div>
                     <div class="card__text">
                         <p class="card__text">Digital transformation</p>
@@ -117,7 +114,7 @@
             <div class="container">
                 <div class="link__wrapper">
                     <a class="link__text" href="#"> Services</a>
-                    <img class="link__img link__img--services" src="img/mobile/ic_next.svg" alt="img"/>
+                    <img class="link__img link__img--services" src="img/icons/ic_next.svg" alt="img"/>
                 </div>
             </div>
         </div>
@@ -133,9 +130,11 @@
             </div>
         </header>
         <div class="box box--header">
-            <img class="box__img box__img--after" src="img/mobile/img_birdieeyes@2x.jpg" alt="images"/>
-            <img class="box__img box__img--before" src="img/mobile/vid_birdieeyes.png" alt="images"/>
-
+            <picture>
+                <source  srcset="img/images/birdie.webp" type="image/webp">
+                <source srcset="img/images/birdie.jpeg" type="image/jpeg">
+                <img class="box__img"  src="img/images/birdie.webp" alt="images"/>
+            </picture>
             <div class="box__text box__text--header">
                 <p class="box__title box__title--header">Birdieeyes</p>
                 <p class="subtitle subtitle--box">
@@ -147,8 +146,9 @@
         <div class="wrap--box wrap">
             <div class="box box__flex">
                 <picture>
-                    <source srcset="img/mobile/img_sport--tablet.png" media="(min-width:768px)"/>
-                    <img class="box__img" src="img/mobile/img_sport--tablet@2x.png" alt="images"/>
+                    <source class="box__img" srcset="img/images/sport.webp" type="image/webp">
+                    <source class="box__img" srcset="img/images/sport.jpeg" type="image/jpeg">
+                    <img class="box__img" src="img/images/sport.jpeg" alt="images"/>
                 </picture>
                 <div class="box__text">
                     <p class="box__title ">UpSport</p>
@@ -158,9 +158,11 @@
                 </div>
             </div>
             <div class="box box__flex">
+<!--                class="box__img"-->
                 <picture>
-                    <source srcset="img/mobile/img_xland.png" media="(min-width:768px)"/>
-                    <img class="box__img" src="img/mobile/img_xland@2x.jpg" alt="image"/>
+                    <source class="box__img" srcset="img/images/xland.webp" type="image/webp">
+                    <source class="box__img" srcset="img/images/xland.jpeg" type="image/jpeg">
+                    <img class="box__img" src="img/images/xland.jpeg" alt="images"/>
                 </picture>
                 <div class="box__text">
                     <p class="box__title">Xland</p>
@@ -170,7 +172,11 @@
                 </div>
             </div>
             <div class="box box__flex box--hidden">
-                <img class="box__img" src="img/mobile/img_phonero.png" alt="images"/>
+                <picture>
+                    <source class="box__img" srcset="img/images/phonero.webp" type="image/webp">
+                    <source class="box__img" srcset="img/images/phonero.jpeg" type="image/jpeg">
+                    <img class="box__img" src="img/images/phonero.jpeg" alt="images"/>
+                </picture>
                 <div class="box__text">
                     <p class="box__title">phonero</p>
                     <p class="subtitle subtitle--box">
@@ -180,7 +186,11 @@
                 </div>
             </div>
             <div class="box box__flex box--hidden">
-                <img class="box__img" src="img/mobile/img_kongsberg.png" alt="image"/>
+                <picture>
+                    <source class="box__img" srcset="img/images/kongsberg.webp" type="image/webp">
+                    <source  class="box__img" srcset="img/images/kongsberg.jpeg" type="image/jpeg">
+                    <img class="box__img" src="img/images/kongsberg.jpeg" alt="images"/>
+                </picture>
                 <div class="box__text">
                     <p class="box__title">Kongsberg Group</p>
                     <p class="subtitle subtitle--box">
@@ -193,15 +203,16 @@
             <div class="container">
                 <div class="link__wrapper">
                     <a class="link__text" href="#" target="_self">All Projects</a>
-                    <img class="link__img link__img--services" src="img/mobile/ic_next.svg" alt="images"/>
+                    <img class="link__img link__img--services" src="img/icons/ic_next.svg" alt="images"/>
                 </div>
             </div>
         </div>
         <div id="our--team"
              class="box box__footer">
             <picture>
-                <source class="source" srcset="img/mobile/img_team_home.jpg"/>
-                <img class="box__img box__img--footer" src="img/mobile/img_team_home.jpg" alt="images"/>
+                <source srcset="img/images/team.jpeg" type="image/jpeg" />
+                <source srcset="img/images/team.webp" type="image/webp" />
+                <img class="box__img box__img--footer" alt="images" src="img/images/team.jpeg"/>
             </picture>
             <div class="box__text  box__text--footer">
                 <p class="box__title box__title--footer">our team</p>
@@ -223,14 +234,16 @@
             in Belarus.</p>
         <div class="social">
             <div class="social__link">
-                <a href="#" target="_self" class="icons"><img src="img/mobile/ic_linkedin_white.svg" alt="link in"></a>
+                <a href="#" target="_self" class="icons">
+                    <img src="img/icons/ic_linkedin_white.svg" alt="link in">
+                </a>
             </div>
             <div class="social__face">
-                <a href="#" target="_self" class="icons"><img src="img/mobile/ic_facebook_white.svg"
+                <a href="#" target="_self" class="icons"><img src="img/icons/ic_facebook_white.svg"
                                                               alt="link facebook"></a>
             </div>
             <div class="social__inst">
-                <a href="#" target="_self" class="icons"><img src="img/mobile/ic_instagram_white.svg"
+                <a href="#" target="_self" class="icons"><img src="img/icons/ic_instagram_white.svg"
                                                               alt="link instagram"></a>
             </div>
         </div>
@@ -254,14 +267,14 @@
     <div class="link link--some">
         <div class="link__wrapper">
             <a class="link__text" href="#"> Drop us a line</a>
-            <img class="link__img" src="img/mobile/ic_next.svg" alt="images"/>
+            <img class="link__img" src="img/icons/ic_next.svg" alt="images"/>
         </div>
     </div>
     <div class="link link--full">
         <div class="container">
             <div class="link__wrapper">
                 <a class="link__text" href="#">Drop us a line</a>
-                <img class="link__img link__img--services" src="img/mobile/ic_next.svg" alt="images"/>
+                <img class="link__img link__img--services" src="img/icons/ic_next.svg" alt="images"/>
             </div>
         </div>
     </div>
